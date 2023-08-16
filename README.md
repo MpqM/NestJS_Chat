@@ -46,6 +46,7 @@ npm run test:cov
 #### ⚪ Writer
 * ##### <span>okqkrwhdtjd@gmail.com
 * <a href = "https://github.com/MpqM"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/></a> <a href = "https://MpqM.tistory.com/"> <img alt="Tistory" src ="https://img.shields.io/badge/Tistory-white.svg?&style=for-the-badge"/></a>
+
 * * *
 #### ⚪ Contributing
 * ##### Fork the Project https://github.com/MpqM/WebApp_SimpleChat
@@ -53,6 +54,7 @@ npm run test:cov
 * ##### Commit your Changes (git commit -m 'Add some AmazingFeature')
 * ##### Push to the Branch (git push origin feature/AmazingFeature)
 * ##### Open a Pull Request
+
 * * *
 #### ⚪ Acknowledgments & License & reference
 * ##### https://github.com/wapj/jsbackend/tree/main/chapter13
