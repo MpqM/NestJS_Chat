@@ -37,6 +37,7 @@ npm run test:cov
 #### ⚪ Description
 <img src="https://user-images.githubusercontent.com/79093184/260903735-b28f8068-79ba-4247-bb94-7c72d4c327aa.png"/>
 <img src ="https://user-images.githubusercontent.com/79093184/260903741-2eebe922-c94e-4df6-9de7-75789dba97bb.jpg"/>
+
 * * *
 #### ⚪ Roadmap & Realization & Study
 * ##### 웹소켓 프로토콜, socket.io 양방향 통신에 대해 공부
@@ -46,7 +47,6 @@ npm run test:cov
 #### ⚪ Writer
 * ##### <span>okqkrwhdtjd@gmail.com
 * <a href = "https://github.com/MpqM"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/></a> <a href = "https://MpqM.tistory.com/"> <img alt="Tistory" src ="https://img.shields.io/badge/Tistory-white.svg?&style=for-the-badge"/></a>
-
 * * *
 #### ⚪ Contributing
 * ##### Fork the Project https://github.com/MpqM/WebApp_SimpleChat
@@ -54,7 +54,6 @@ npm run test:cov
 * ##### Commit your Changes (git commit -m 'Add some AmazingFeature')
 * ##### Push to the Branch (git push origin feature/AmazingFeature)
 * ##### Open a Pull Request
-
 * * *
 #### ⚪ Acknowledgments & License & reference
 * ##### https://github.com/wapj/jsbackend/tree/main/chapter13
