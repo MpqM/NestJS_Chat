@@ -13,55 +13,48 @@ https://www.youtube.com/watch?v=1UvK-YwjQaA
 
 * * *
 #### ⚪ Getting Strated
-* ##### Prerequisites: npm, node, MongoDB Connection URL
+* ##### Prerequisites: npm, node
 * ##### Installation & Execution
 ```bash
-git clone https://github.com/MpqM/WebApp_Board.git
-# Change the MONGO_CONNECTION_STRING value in the configs/mongodb-connection.jsfile with yours
+git clone https://github.com/MpqM/NestJS_Auth.git
+cd {project}
 npm install
-npm start
+# development
+npm run start
+# watch mode
+npm run start:dev
+# production mode
+npm run start:prod
+# unit tests
+npm run test
+# e2e tests
+npm run test:e2e
+# test coverage
+npm run test:cov
 ```
+
 * * *
 #### ⚪ Description
-* ##### express-handlebars: 자바스크립트 view 템플릿을 이용해 헬퍼 함수를 작성하고 이용
-* ##### Post
-   * ##### 게시글 작성시 비밀번호 해쉬 처리후 DB저장
-   * ##### 게시글 상세보기를 통해 게시물 정보(댓글, 작성자, 작성일자 등)확인
-   * ##### 게시글 수정, 삭제시 check-pasword API 을 통해 비인가적인 삭제 호출 막음
-* ##### Comment
-   * ##### DB의 Post에 배열 형식으로 Post DB에 존재 
-   * ##### 댓글 작성시 비밀번호 해쉬 처리후 Post DB destruct 후 저장
-   * ##### 댓글 삭제시 2중 쿼리사용 API를 통해 비밀번호 인증후 삭제
-* ##### List
-    * ##### 리스트에서 게시글 검색 및 페이지 네이션 api
-    * ##### 페이지네이션구현 -> utils/paginator.js 참조
-* ##### RESTAPI
-    * ##### Post: 게시글 생성, 삭제, 수정, 상세보기 기능
-    * ##### Comment: 댓글 삭제, 생성 기능
-    * ##### List: 홈페이지 요청처리 게시글 목록, 조회, 페이지네이션 기능
-    * ##### 자세한 내용은 app.js 주석 참조
+<img src="https://user-images.githubusercontent.com/79093184/260903735-b28f8068-79ba-4247-bb94-7c72d4c327aa.png"/>
+<img src ="https://user-images.githubusercontent.com/79093184/260903741-2eebe922-c94e-4df6-9de7-75789dba97bb.jpg"/>
 * * *
 #### ⚪ Roadmap & Realization & Study
-* ##### Node.js 백엔드 개발자 되기 chapter7의 프로젝트를 보고 따라함
-* ##### 자바스크립트 템플릿 엔진인 express-handlebars에 대해 실습
-* ##### 실습 프로젝트 내용에는 비밀번호 인증이지만 DB에 그대로 평문이 저장됨
-* ##### 이에 bcrypt 패키지를 통해 암호화 기능을 적용해 DB에 저장되는 비밀번호에 해쉬적용
-* ##### 비밀번호 인증시 해쉬 비교 수행후 인증 확인/거부
-* ##### 디렉토리 재구조화 MVC 패턴
-* ##### MongoDB 정규식 표현이 미숙해 댓글(post.comments)에 접근하는데 비동기호출을 2번사용함
+* ##### 웹소켓 프로토콜, socket.io 양방향 통신에 대해 공부
+* ##### 폴링, 롱폴링, 양방향통신 실습
+* ##### NestJS에서 웹소켓으로 전송되는 이벤트를 핸들링하는 클래스인 게이트웨이 실습
 * * *
 #### ⚪ Writer
 * ##### <span>okqkrwhdtjd@gmail.com
 * <a href = "https://github.com/MpqM"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/></a> <a href = "https://MpqM.tistory.com/"> <img alt="Tistory" src ="https://img.shields.io/badge/Tistory-white.svg?&style=for-the-badge"/></a>
 * * *
 #### ⚪ Contributing
-* ##### Fork the Project https://github.com/MpqM/WebApp_Board
+* ##### Fork the Project https://github.com/MpqM/WebApp_SimpleChat
 * ##### Create your Feature Branch (git checkout -b feature/AmazingFeature)
 * ##### Commit your Changes (git commit -m 'Add some AmazingFeature')
 * ##### Push to the Branch (git push origin feature/AmazingFeature)
 * ##### Open a Pull Request
 * * *
 #### ⚪ Acknowledgments & License & reference
-* ##### https://github.com/wapj/jsbackend/tree/main/chapter7
-* ##### 박승규,『Node.js 백엔드 개발자 되기』, GOLDENRABBIT, p234~293
+* ##### https://github.com/wapj/jsbackend/tree/main/chapter13
+* ##### 박승규,『Node.js 백엔드 개발자 되기』, GOLDENRABBIT
 * * * *
