@@ -35,7 +35,6 @@ npm run test:cov
 
 * * *
 #### ⚪ Description
-<img src="https://user-images.githubusercontent.com/79093184/260903735-b28f8068-79ba-4247-bb94-7c72d4c327aa.png"/>
 <img src ="https://user-images.githubusercontent.com/79093184/260903741-2eebe922-c94e-4df6-9de7-75789dba97bb.jpg"/>
 
 * * *
